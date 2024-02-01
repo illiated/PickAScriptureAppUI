@@ -9,6 +9,11 @@ namespace PickAScriptureAppUI
     internal class PickAScriptureClass
     {
         static Random random = new Random();
+        /// <summary>
+        /// Picks random scripture refs and returns them.
+        /// </summary>
+        /// <param name="numberOfScriptures">The number of scriptures to pick.</param>
+        /// <returns>An array of strings that returns a scripture reference.</returns>
         public static string[] PickRandomScripture(int numberOfScriptures)
         {
             string[] pickedScripture = new string[numberOfScriptures];
